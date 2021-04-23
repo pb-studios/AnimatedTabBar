@@ -1,6 +1,6 @@
 # Animated Tab Bar
 
-UI  library for adding animation to iOS tabbar items and icons.
+UI library for adding animation to UITabBar items and icons.
 
 ## Usage
 
