@@ -105,15 +105,6 @@ open class AnimatedTabBarController: UITabBarController {
         tabBar.isHidden = isHidden
     }
 
-    // MARK: life circle
-
-    override open func viewDidLoad() {
-        super.viewDidLoad()
-        if initialIndex == nil {
-            self.initialIndex = 0
-        }
-    }
-
     override open func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         coordinator.animate(alongsideTransition: { _ -> Void in
             self.layoutContainers()
