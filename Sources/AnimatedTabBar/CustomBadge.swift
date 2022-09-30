@@ -92,7 +92,7 @@ open class CustomBadge: UILabel {
                                                toItem: onView,
                                                attribute: .centerX,
                                                multiplier: 1,
-                                               constant: 10)
+                                               constant: 20)
         onView.addConstraint(centerX)
         centerXConstraint = centerX
     }
